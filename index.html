@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Animal Site</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <div class="dropdownContent" id="dropdownContent"></div>
+        <label for="animal">Pick an animal to see information about it!</label>
+        <select name="animal-type" id="animalType">
+            <option value="Fox">Fox</option>
+            <option value="manatee">Manatee</option>
+            <option value="Sloth">Sloth</option>
+        </select>
+        </div>
+        <button class="button" id="button" type="submit">Submit</button>
+    </form>
+
+    <div id="animals">
+        <div id="fox" class="hidden">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLGjy6_jxs0uWLScErQ-wJbjvIlBXCnIyvhabi7rDmA&usqp=CAU&ec=48665701">
+            <h1>Fox</h1>
+            <p></p>
+        </div>
+        <div id="manatee" class="hidden">
+            <img src="https://cdn.hswstatic.com/gif/manatees-see-underwater-98181305.jpg">
+            <h1>Manatee</h1>
+            <p></p>
+        </div>
+        <div id="sloth" class="hidden">
+            <img src="https://www.telegraph.co.uk/content/dam/world-news/2023/05/01/TELEMMGLPICT000333615144_trans_NvBQzQNjv4BqnovVTiJx1-CJOCPnC8SeZ_4Xpit_DMGvdp2n7FDd82k.jpeg?imwidth=680">
+            <h1>Sloth</h1>
+            <p></p>
+        </div>
+
+
+
+        <script src="script/script.js"></script>
+    </div>
+</body>
+
+</html>
