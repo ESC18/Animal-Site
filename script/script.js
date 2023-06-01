@@ -8,10 +8,16 @@ window.onload = function () {
         let dropdownContent = document.getElementById("animalType").value;
         if (dropdownContent === "fox") {
             fox.removeAttribute("class", "hidden");
-        } else if (dropdownContent !== "manatee") {
+            manatee.setAttribute("class", "hidden");
+            sloth.setAttribute("class", "hidden");
+        } else if (dropdownContent === "manatee") {
             manatee.removeAttribute("class", "hidden");
+            fox.setAttribute("class", "hidden");
+            sloth.setAttribute("class", "hidden");
         } else  {
             sloth.removeAttribute("class", "hidden");
+            fox.setAttribute("class", "hidden");
+            manatee.setAttribute("class", "hidden");
         }
     }
 }

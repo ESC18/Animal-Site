@@ -14,7 +14,7 @@ form {
     text-align: center;
     padding-top: 20px;
     border-radius: 20px;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
@@ -45,4 +45,25 @@ button:hover {
     background-color: black;
     color: white;
     border-color: black;
+}
+
+.image {
+    position: absolute;
+    width: 20vw;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Roboto Slab;
+}
+
+p {
+    position:absolute;
+    
 }
